@@ -30,3 +30,6 @@ graph.add_edge("chat_node", END)
 chatbot = graph.compile(checkpointer=checkpointer)
 
 # print(chatbot.invoke({"messages":"Hello how are u doing?"}))
+
+
+
